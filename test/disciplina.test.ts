@@ -1,6 +1,6 @@
 /* globals describe, expect, it */
-import { Disciplina } from '../src/disciplina'
-import { Professores } from '../src/Professores'
+import { Disciplina } from '../src/agregação_composicao/disciplina'
+import { Professores } from '../src/agregação_composicao/Professores'
 
 describe('teste disciplina', () => {
   it('deve criar uma disciplina com o nome web', () => {

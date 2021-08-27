@@ -1,7 +1,7 @@
 /* globals describe, expect, it */
-import { Curso } from '../src/curso'
-import { Disciplina } from '../src/disciplina'
-import { Professores } from '../src/Professores'
+import { Curso } from '../src/agregação_composicao/curso'
+import { Disciplina } from '../src/agregação_composicao/disciplina'
+import { Professores } from '../src/agregação_composicao/Professores'
 
 describe('teste curso', () => {
   const NOME_CURSO_ADS = 'ADS'
